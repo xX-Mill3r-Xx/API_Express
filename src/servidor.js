@@ -40,3 +40,6 @@ app.delete('/produtos/:id', (req, res, next) =>{
 app.listen(porta, () => {
     console.log(`Servidor esta Executando na porta ${porta}.`)
 })
+
+//Para Executar = Ctrl+Alt+N
+//node start
